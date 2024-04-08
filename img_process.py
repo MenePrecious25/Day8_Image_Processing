@@ -23,6 +23,7 @@ def image_uploader(img):
 
 def convert_rgb(imag):
     return pilimage.convert('RGB')
+st.write('Image Processing App')
 image_file = st.file_uploader("Upload Image", type=['jpeg', 'png', 'jpeg'])
 
 pilimage = image_uploader(image_file)
