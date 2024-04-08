@@ -2,4 +2,3 @@ streamlit
 opencv-python
 Pillow
 numpy
-libgl1-mesa-glx
